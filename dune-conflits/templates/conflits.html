@@ -1,0 +1,12 @@
+<!-- templates/conflit.html -->
+<div>
+  <h1>Conflit</h1>
+  <ul>
+    {{#each assets}}
+      <li>
+        {{this.name}}
+        <button class="view-asset" data-id="{{this.id}}">Voir Détails</button>
+      </li>
+    {{/each}}
+  </ul>
+</div>
